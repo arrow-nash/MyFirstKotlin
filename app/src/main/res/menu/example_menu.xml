@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnOpenBrowser"
+        android:title="Open Browser"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btnMisc"
+        android:title="Misc"
+        app:showAsAction="never" >
+        <menu>
+            <item android:id="@+id/btnDoNothing"
+                android:title="Do Nothing"/>
+            <item android:id="@+id/btn_user_manage"
+                android:title="Go User Manage"/>
+        </menu>
+    </item>
+
+</menu>

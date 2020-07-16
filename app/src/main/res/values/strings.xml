@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">テストアプリだよ</string>
+    <string name="title_main">ホーム画面だよ</string>
+    <string name="title_open_browser">ブラウザ開くよ</string>
+    <string name="title_nothing">工事中だよ</string>
+    <string name="title_view_list">リストを表示するよ</string>
+    <string name="title_user_show">ユーザを表示するよ</string>
+    <string name="title_user_add">ユーザを追加するよ</string>
+    <string name="title_user_delete">ユーザを削除するよ</string>
+    <string name="btn_nothing">工事中....</string>
+
+</resources>
