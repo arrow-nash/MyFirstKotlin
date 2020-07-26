@@ -13,7 +13,7 @@ open class BaseActivity : AppCompatActivity() {
     //右上にオプションボタンを表示する
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.example_menu, menu)
+        inflater.inflate(R.menu.header_menu, menu)
         return true
     }
     //メニューアイテムが選択された時に何かする

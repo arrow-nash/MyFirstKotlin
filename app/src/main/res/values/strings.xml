@@ -1,12 +1,36 @@
 <resources>
+    <!--  label  -->
     <string name="app_name">テストアプリだよ</string>
-    <string name="title_main">ホーム画面だよ</string>
-    <string name="title_open_browser">ブラウザ開くよ</string>
-    <string name="title_nothing">工事中だよ</string>
-    <string name="title_view_list">リストを表示するよ</string>
-    <string name="title_user_show">ユーザを表示するよ</string>
-    <string name="title_user_add">ユーザを追加するよ</string>
-    <string name="title_user_delete">ユーザを削除するよ</string>
-    <string name="btn_nothing">工事中....</string>
+    <string name="label_main">MainActivityだよ</string>
+    <string name="label_input_file">InputFileActivityだよ</string>
+    <string name="label_open_browser">OpenBrowserActivityだよ</string>
+    <string name="label_user_manage">UserManageActivityだよ</string>
+    <string name="label_nothing">NothingActivityだよ</string>
 
+    <!--  トップ画面  -->
+    <string name="title_main">ホーム画面</string>
+    <!--  ブラウザ読み込み画面  -->
+    <string name="title_open_browser">ブラウザ開くよ</string>
+    <!--  工事中画面  -->
+    <string name="title_nothing">工事中だよ</string>
+    <string name="btn_nothing">工事中....</string>
+    <!--  ファイル読み込み画面  -->
+    <string name="title_view_list">ファイルを読み込んで表示するよ</string>
+    <!--  ユーザ管理画面  -->
+    <string name="title_user_manage">ユーザ管理機能へ</string>
+    <string name="btn_user_show">ユーザを表示</string>
+    <string name="btn_user_add">ユーザを追加</string>
+    <string name="btn_user_delete">ユーザを削除</string>
+    <string name="btn_user_delete_all">ユーザを全削除</string>
+    <string name="input_user_info">ユーザ情報を入力してね</string>
+    <string name="input_user_last_name">姓</string>
+    <string name="input_user_first_name">名</string>
+    <string name="confirm_delete_user">選択したユーザ削除していい？\nID：%s 名前：%s</string>
+
+    <!--  共通  -->
+    <string name="menu_misc">その他</string>
+    <string name="ok">OK</string>
+    <string name="register">登録する</string>
+    <string name="back">戻る</string>
+    <string name="cancel">やめる</string>
 </resources>

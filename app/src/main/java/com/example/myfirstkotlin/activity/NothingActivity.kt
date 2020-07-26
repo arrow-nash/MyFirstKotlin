@@ -14,8 +14,7 @@ class NothingActivity : BaseActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        val btnNothing = findViewById<TextView>(R.id.button3_1)
-        btnNothing.setOnClickListener {
+        findViewById<TextView>(R.id.btnNothing).setOnClickListener {
             Toast.makeText(this, "工事中だよー", Toast.LENGTH_SHORT).show()
         }
     }

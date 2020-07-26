@@ -4,21 +4,21 @@
     <item
         android:id="@+id/btnHome"
         android:icon="@drawable/ic_home"
-        android:title="Home"
+        android:title="@string/title_main"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/btnOpenBrowser"
-        android:title="Open Browser"
+        android:title="@string/title_open_browser"
         app:showAsAction="never" />
     <item
         android:id="@+id/btnMisc"
-        android:title="Misc"
+        android:title="@string/menu_misc"
         app:showAsAction="never" >
         <menu>
             <item android:id="@+id/btnDoNothing"
-                android:title="Do Nothing"/>
+                android:title="@string/title_nothing"/>
             <item android:id="@+id/btn_user_manage"
-                android:title="Go User Manage"/>
+                android:title="@string/title_user_manage"/>
         </menu>
     </item>
 

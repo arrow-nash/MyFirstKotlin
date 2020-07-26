@@ -13,7 +13,7 @@ import java.io.InputStreamReader
 
 
 //Activityはアプリ内の１画面が持つ機能を表すアクションクラスみたいなもの
-class ViewListActivity : BaseActivity() {
+class InputFileActivity : BaseActivity() {
     private val inputFile = "corona.tsv"
 
     //[Kotlin]varで定義すると変数、valで定義するとfinal
@@ -23,7 +23,7 @@ class ViewListActivity : BaseActivity() {
     //onCreateはActivityで一番最初に動くメソッド
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_list)
+        setContentView(R.layout.activity_input_file)
         //toolbarを表示
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -68,6 +68,7 @@ class ViewListActivity : BaseActivity() {
         )
         data += case
     }
+
     //画面表示形式に変換する
     private fun toShowItems(data: Array<Case>): Array<String> {
         var items: Array<String> = emptyArray()

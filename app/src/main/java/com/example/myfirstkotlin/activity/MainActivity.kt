@@ -21,14 +21,14 @@ class MainActivity : BaseActivity() {
         setSupportActionBar(toolbar)
 
         //ID指定でXML要素をactivity_mainから取得して変数に格納
-        val btnViewList: Button = findViewById(R.id.button1_1)
-        val btnOpenBrowser: Button = findViewById(R.id.button1_2)
-        val btnNothing: Button = findViewById(R.id.button1_3)
+        val btnViewList: Button = findViewById(R.id.btnInputFile)
+        val btnOpenBrowser: Button = findViewById(R.id.btnDisplayBrowser)
+        val btnNothing: Button = findViewById(R.id.btnNothing)
 
         //setOnClickListener：ボタンクリックされたときに何かする
         btnViewList.setOnClickListener {
             //OpenBrowserActivityを呼ぶ
-            val intent = Intent(application, ViewListActivity::class.java)
+            val intent = Intent(application, InputFileActivity::class.java)
             startActivity(intent)
         }
         btnOpenBrowser.setOnClickListener {

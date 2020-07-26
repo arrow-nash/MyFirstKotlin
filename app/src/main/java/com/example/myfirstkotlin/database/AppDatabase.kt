@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import com.example.myfirstkotlin.dao.UserDao
 import com.example.myfirstkotlin.model.User
 
-@Database(entities = [User::class], version = 1)
+@Database(entities = [User::class], version = 2)
 abstract class AppDatabase : RoomDatabase() {
     //参考
     //https://codelabs.developers.google.com/codelabs/android-room-with-a-view-kotlin/#7
@@ -29,7 +29,9 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "app_database"
-                ).allowMainThreadQueries().build()
+                ).allowMainThreadQueries()//メインスレッドでDBアクセスを許可する
+                    .fallbackToDestructiveMigration()//既存データ全削除を許容してエンティティに変更入れてもエラーが発生しないようにする
+                    .build()
                 INSTANCE = instance
                 return instance
             }

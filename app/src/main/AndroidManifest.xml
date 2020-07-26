@@ -14,7 +14,7 @@
 
         <activity
             android:name=".activity.MainActivity"
-            android:label="MainActivity"
+            android:label="@string/label_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <!-- メインのエントリポイントであることを表す -->
@@ -24,20 +24,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.ViewListActivity"
-            android:label="ViewListActivity"
+            android:name=".activity.InputFileActivity"
+            android:label="@string/label_input_file"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.OpenBrowserActivity"
-            android:label="OpenBrowserActivity"
+            android:label="@string/label_open_browser"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.NothingActivity"
-            android:label="NothingActivity"
+            android:label="@string/label_nothing"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.UserManageActivity"
-            android:label="UserManageActivity"
+            android:label="@string/label_user_manage"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
